@@ -274,7 +274,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-section {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .section-heading {
@@ -357,7 +357,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skill-section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .skill-section-content h3 {
@@ -408,7 +408,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .experience-section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .experience-section-content .nav-tabs {
@@ -568,6 +568,7 @@ body::-webkit-scrollbar-thumb {
 
 .experinece-details ul li i {
     margin-right: 10px;
+    color: #5b6c33;
 }
 
 .experinece-details {
@@ -598,7 +599,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .portfolio-image a {
