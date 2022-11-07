@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid #5b6c33;
 }
 
-.profile-aside-inner .profile-logo a {
+.profile-logo a {
     display: inline-block;
     text-decoration: none;
     color: #5b6c33;
@@ -679,4 +679,35 @@ body::-webkit-scrollbar-thumb {
 
 .load-more-button a i {
     margin-right: 8px;
+}
+
+.portfolio-wrapper {
+    background: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(14, 14, 14, 0.88) 100%,
+        rgba(0, 0, 0, 0.88) 100%
+    );
+    min-height: 100vh;
+    padding: 20px 0;
+}
+.portfolio-page-main-content {
+    padding: 80px 0;
+}
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.portfolio-heading span {
+    display: inline-block;
+    color: #5b6c33;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.portfolio-heading h1 {
+    color: #fff;
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
