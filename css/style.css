@@ -374,10 +374,17 @@ body::-webkit-scrollbar-thumb {
 }
 .skill-set span {
     margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    background: #5b6c33;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .skill-set span i {
-    font-size: 40px;
-    color: #5b6c33;
+    font-size: 33px;
+    color: #fff;
 }
 
 .skill-section-content {
@@ -403,11 +410,11 @@ body::-webkit-scrollbar-thumb {
 
 .soft-skill-set span {
     font-size: 20px;
-    color: #5b6c33;
+    background-color: #5b6c33;
     padding: 10px;
-    border: 1px solid;
     margin-right: 20px;
     border-radius: 10px;
+    color: #fff;
 }
 
 .experience-section {
