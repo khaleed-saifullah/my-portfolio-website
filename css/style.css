@@ -617,6 +617,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
+    height: 100%;
 }
 
 .portfolio-image img {
@@ -636,6 +637,7 @@ body::-webkit-scrollbar-thumb {
 
 .portfolio-image {
     margin-bottom: 30px;
+    height: 380px;
 }
 
 .protfolio-name a {
@@ -717,4 +719,8 @@ body::-webkit-scrollbar-thumb {
     font-size: 46px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.porfolio-section-content .row {
+    justify-content: center;
 }
