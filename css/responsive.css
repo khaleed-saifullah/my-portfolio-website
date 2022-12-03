@@ -1,0 +1,18 @@
+@media (max-width: 1440px) {
+    .main-content .container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1365px) {
+    .skill-section-content {
+        flex-direction: column;
+    }
+    .skill-section-content .programming-skills {
+        margin-bottom: 30px;
+    }
+
+    .contact-info-box h4 {
+        font-size: 16px;
+    }
+}

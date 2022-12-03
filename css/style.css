@@ -345,6 +345,8 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid #2b2a2a;
     border-radius: 12px;
     box-shadow: 0 0 6px 3px #383d2b;
+    flex-basis: 250px;
+    margin-right: 20px;
 }
 
 .contact-info-icon {
@@ -488,6 +490,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .education-content-box-inner {
+    display: flex;
 }
 
 .education-content-box-info {
@@ -495,13 +498,12 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
     margin-left: 20px;
     display: inline-block;
-    min-width: 550px;
+    max-width: 550px;
     position: relative;
     box-shadow: 0 0 6px 3px #383d2b;
 }
 
 .education-content-box-icon {
-    float: left;
     display: block;
     width: 40px;
     height: 40px;
@@ -586,7 +588,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #experience-tab-pane .education-content-box-info {
-    min-width: 800px;
+    max-width: 800px;
 }
 
 .cerfication-content h3 {
@@ -603,7 +605,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
     margin-left: 20px;
     display: inline-block;
-    min-width: 500px;
+    max-width: 500px;
     position: relative;
     box-shadow: 0 0 6px 3px #383d2b;
 }
@@ -624,6 +626,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     border-radius: 10px;
     transition: all 0.3s;
+    height: 100%;
+    object-fit: contain;
 }
 
 .portfolio-sample {
@@ -632,7 +636,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     box-shadow: 0 0 5px 2px #474747;
     transition: all 0.3s;
-    margin-bottom: 40px;
+    height: 100%;
 }
 
 .portfolio-image {
@@ -723,4 +727,8 @@ body::-webkit-scrollbar-thumb {
 
 .porfolio-section-content .row {
     justify-content: center;
+}
+
+.porfolio-section-content .col-md-6 {
+    margin-bottom: 30px;
 }
