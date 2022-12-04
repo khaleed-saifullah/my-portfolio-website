@@ -16,3 +16,51 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 1200px) {
+    .experience-section-content .nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+    }
+
+    .education-content-box-info h3 {
+        font-size: 24px;
+    }
+
+    .protfolio-name a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-me {
+        font-size: 20px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-info-box {
+        flex-basis: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .soft-skill-set span {
+        font-size: 15px;
+    }
+
+    .portfolio-image {
+        height: 200px;
+    }
+
+    .skill-section,
+    .experience-section,
+    .portfolio-section {
+        padding: 50px 0;
+    }
+
+    #experience-tab-pane .education-content-box-info {
+        max-width: 450px;
+    }
+}
