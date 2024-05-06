@@ -631,16 +631,16 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
   width: 100%;
   border-radius: 10px;
-  overflow: hidden;
   height: 100%;
 }
 
 .portfolio-image img {
   width: 100%;
   border-radius: 10px;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
   height: 100%;
-  object-fit: contain;
+  /* object-fit: contain; */
+  /* overflow: hidden; */
 }
 
 .portfolio-sample {
@@ -655,9 +655,49 @@ body::-webkit-scrollbar-thumb {
 .portfolio-image {
   margin-bottom: 30px;
   height: 380px;
+  position: relative;
 }
 
-.protfolio-name a {
+.portfolio-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6f6f6fab;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.portfolio-image:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.protfolio-view-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.protfolio-view-icon i {
+  color: #000000;
+  font-size: 24px;
+}
+
+.portfolio-image:hover .protfolio-view-icon {
+  visibility: visible;
+  opacity: 1;
+}
+
+.protfolio-name h4 {
   display: inline-block;
   color: #b6b6b6;
   font-size: 30px;
@@ -667,12 +707,23 @@ body::-webkit-scrollbar-thumb {
   transition: all 0.3s;
 }
 
-.portfolio-sample:hover .protfolio-name a {
+.portfolio-sample:hover .protfolio-name h4 {
   color: #5b6c33;
 }
 
-.portfolio-sample:hover .portfolio-image img {
-  transform: scale(1.1);
+.projecat-info {
+  display: flex;
+  gap: 20px;
+}
+
+.projecat-info h6 {
+  margin-bottom: 0;
+  flex-basis: 150px;
+}
+
+.projecat-info a {
+  color: #323a1e;
+  font-weight: 500;
 }
 
 .portfolio-sample:hover {
