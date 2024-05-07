@@ -324,9 +324,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-me {
-  font-size: 25px;
-  color: #fff;
+  font-size: 22px;
+  color: #9f9f9f;
   text-align: justify;
+}
+
+.about-me span {
+  display: inline-block;
+  color: #fff;
 }
 
 .contact-info {
@@ -795,4 +800,50 @@ body::-webkit-scrollbar-thumb {
 
 .porfolio-section-content .col-md-6 {
   margin-bottom: 30px;
+}
+
+.portfolio-section-tab-content .nav-tabs {
+  border: 0px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  /* box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; */
+}
+
+.portfolio-section-tab-content .nav-tabs .nav-item {
+  flex-basis: 33.33%;
+}
+
+.portfolio-section-tab-content .nav-tabs .nav-item .nav-link {
+  border: 1px solid transparent;
+  padding: 30px 10px;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.5s;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  color: #9f9f9f;
+}
+
+.portfolio-section-tab-content .nav-tabs .nav-item .nav-link.active {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  color: #5b6c33;
+  border: 1px solid #1a1a1a;
+}
+
+.portfolio-section-tab-content .nav-tabs .nav-item .nav-link:hover,
+.portfolio-section-tab-content .nav-tabs .nav-item .nav-link:focus {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  color: #5b6c33;
+  border: 1px solid #1a1a1a;
+}
+
+.portfolio-section-tab-content ul {
+  margin-bottom: 40px;
+}
+
+.portfolio-wrapper .portfolio-section-tab-content .nav-tabs .nav-item {
+  flex-basis: 25%;
 }
