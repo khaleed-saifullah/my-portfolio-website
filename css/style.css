@@ -810,7 +810,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-section-tab-content .nav-tabs .nav-item {
-  flex-basis: 33.33%;
+  flex-basis: 50%;
 }
 
 .portfolio-section-tab-content .nav-tabs .nav-item .nav-link {
@@ -845,5 +845,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-wrapper .portfolio-section-tab-content .nav-tabs .nav-item {
-  flex-basis: 25%;
+  flex-basis: 33.33%;
 }
